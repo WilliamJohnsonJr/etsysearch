@@ -17,6 +17,26 @@ a {
 	font-size: 30px;
 }
 
+.sell {
+	color: lighten(#289AB7, 10%);
+}
+
+.register {
+	color: lighten(#289AB7, 10%);
+}
+
+.signIn {
+	color: lighten(#289AB7, 10%);
+	border: 2px solid lighten(#289AB7, 10%);
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.cartImg {
+	width: 18px;
+	height: 18px;
+}
+
 nav {
 	background: white;
 	ul li{
@@ -31,6 +51,9 @@ nav {
 .sidebar {
 	display: inline-block;
 	vertical-align: top;
+	background: white;
+	border: 1px solid #EAEAE7;
+	border-radius: 4px;
 }
 
 .subSubContainer {
@@ -40,6 +63,7 @@ nav {
 .grid {
 	width: 500px;
 	height: 500px;
+	margin-top: 16px;
 	background: pink;
 }
 
@@ -49,4 +73,6 @@ nav {
 
 .linkBox {
 	display: inline-block;
+	background: lightgray;
+	padding: 5px;
 }
