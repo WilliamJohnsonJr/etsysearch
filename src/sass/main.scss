@@ -1,0 +1,52 @@
+a {
+	text-decoration: none;
+}
+
+.headerBar {
+	background: white;
+	li {
+		display: inline-block;
+	}
+	ul {
+		float: right;
+	}
+}
+
+.logo {
+	color: #F52900;
+	font-size: 30px;
+}
+
+nav {
+	background: white;
+	ul li{
+		display: inline-block;
+	}
+}
+
+.subContainer {
+	background: #F4F5F0;
+}
+
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.subSubContainer {
+	display: inline-block;
+}
+
+.grid {
+	width: 500px;
+	height: 500px;
+	background: pink;
+}
+
+.relatedBoxes {
+	display: inline-block;
+}
+
+.linkBox {
+	display: inline-block;
+}
