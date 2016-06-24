@@ -11,27 +11,28 @@ items.results.forEach(function(object){
 	store: "",
 	storeLink: "",
 	price: "",
-	currency: "",
-	currencySymbol: "",
+	currency_code: "",
+	currency_symbol: "",
 	}
 	pug.title = object.title;
 	pug.titleLink = object.url;
-	pug.image = object.Images[0].url_75x75;
+	pug.image = object.Images[0].url_170x135;
 	pug.store = object.Shop.shop_name;
 	pug.storeLink = object.Shop.url;
 	pug.price = object.price;
-	pug.currency = object.currency_code;
+	pug.currency_code = object.currency_code;
+	pug.currency_symbol = object.currency_code;
 
 	pugZilla.push(pug);
 });
 
-console.log(pugZilla);
-
 pugZilla.forEach(function(object){
-	if (object.currency === "USD") {
-		object.currencySymbol = "$";
-	} else {
-		object.currencySymbol = object.currency;
+	if (object.currency_code === "USD") {
+		object.currency_symbol = "$";
+	} else if (object.currency_code === "AUD") {
+		object.currency_symbol = "A$";
+	} else if (object.currency_code === "GBP"){
+		object.currency_symbol = "£";
 	}
 });
 
@@ -43,7 +44,9 @@ function pugPlate (pug){
 				</div>
 				<div class="store">
 					<a class="pugStoreLink" href="${pug.storeLink}">${pug.store}</a>
-					<span class="pugCurrency">${pug.currency_code}</span><span class="Price">${pug.price}</span>
+					<div class="priceBox">
+						<span class="pugCurrency">${pug.currency_symbol}</span><span class="price">${pug.price}</span>
+					</div>
 			</div>`;
 };
 
