@@ -19,14 +19,34 @@ li {
 .logo {
 	color: #F52900;
 	font-size: 30px;
+	font-family: 'Lora', serif;
+	margin-left: -11px;
+    margin-top: -3px;
+}
+
+.formInput {
+    width: 314px;
+    height: 14px;
+    margin-left: 12px;
+    padding-top: 9px;
+    background: white;
+    border-right-style: hidden;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-radius: 2px;
 }
 
 .searchButton{
-	color: white;
-	background: #23A8C0;
-	border: 2px solid #119FB5;
-	border-radius: 4px;
-	margin-left: -4px;
+    color: white;
+    background: #23A8C0;
+    border: 2px solid #119FB5;
+    border-radius: 0 3px 3px 0;
+    margin-left: -8px;
+    vertical-align: top;
+    width: 63px;
+    height: 26px;
+    font-size: 11px;
 }
 
 .sell {
