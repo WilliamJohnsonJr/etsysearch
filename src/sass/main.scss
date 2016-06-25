@@ -12,7 +12,9 @@ li {
 		display: inline-block;
 	}
 	ul {
-		float: right;
+	  float: right;
+  	  margin-top: -15px;
+  	  margin-right: -66px;
 	}
 }
 
@@ -50,29 +52,48 @@ li {
 }
 
 .sell {
-	color: lighten(#289AB7, 10%);
+	color: #3db6d5;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top: 24px;
+    margin-right: 8px;
 }
 
 .register {
-	color: lighten(#289AB7, 10%);
+    color: #3db6d5;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-right: 7px;
 }
 
 .signIn {
-	color: lighten(#289AB7, 10%);
-	border: 2px solid lighten(#289AB7, 10%);
-	border-radius: 4px;
-	padding: 5px;
+    color: #3db6d5;
+    border: 2px solid #3db6d5;
+    border-radius: 4px;
+    padding: 5px;
+    width: 38px;
+    height: 14px;
+    font-size: 12px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 18px;
 }
 
 .cart {
-	border-left: 2px solid #E5E6E2;
+    border-left: 2px solid #E5E6E2;
     padding-left: 9px;
-    margin-right: 120px;
+    margin-right: 132px;
+    margin-top: 15px;
 }
 
 .cartImg {
 	width: 18px;
 	height: 18px;
+}
+
+.cartText {
+	font-size: 10px;
 }
 
 nav {
