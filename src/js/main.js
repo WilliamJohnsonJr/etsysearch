@@ -38,7 +38,7 @@ pugZilla.forEach(function(object){
 
 function pugPlate (pug){
 	return `<div class="pugContainer">
-				<div class="imgContainer"><a class="pugImageLink" href="${pug.titleLink}"><img class="pugImage" src="${pug.image}"></a>
+				<div class="imgContainer"><a href="#"><img class="heart" src="assets/heart.png"></a><a href="#"><img class="hamburger" src="assets/hamburger.png"></a><a class="pugImageLink" href="${pug.titleLink}"><img class="pugImage" src="${pug.image}"></a>
 				</div>
 				<div class="pugTitle"><a class="pugTitleLink" href="${pug.titleLink}">${pug.title}</a>
 				</div>
