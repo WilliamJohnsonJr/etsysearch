@@ -7,3 +7,5 @@ hover buttons which appear when images are hovered.
 This page uses multiple JavaScript modules. They can be found in the /src/js directory.
 
 API used can be found here: https://api.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=pug&includes=Images,Shop&sort_on=score
+
+Page is deployed on Surge at: tiy-williamjohnsonjr-etsysearch.surge.sh
